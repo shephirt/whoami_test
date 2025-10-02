@@ -6,8 +6,6 @@ theme = "blowfish" # UNCOMMENT THIS LINE
 baseURL = "https://www.crstnhrt.de"
 defaultContentLanguage = "en"
 
-# disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
-
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
