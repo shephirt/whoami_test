@@ -26,10 +26,11 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
+          extended: true
 
       # 3️⃣ Hugo Seite bauen
       - name: Build Hugo
-        run: hugo
+        run: hugo --minify
 
       # 4️⃣ Gebaute public/ ins Repo pushen
       - name: Commit generated site
