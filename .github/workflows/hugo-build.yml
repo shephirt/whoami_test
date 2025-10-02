@@ -20,6 +20,7 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: true
+          submodules: recursive
 
       # 2️⃣ Hugo installieren
       - name: Setup Hugo
