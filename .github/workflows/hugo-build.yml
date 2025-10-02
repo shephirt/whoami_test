@@ -2,8 +2,8 @@ name: Build & Deploy Hugo
 
 on:
   push:
-    paths-ignore:
-      - 'public/**'
+#    paths-ignore:
+#      - 'public/**'
     branches:
       - main
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
     steps:
       # 1️⃣ Repository auschecken
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
           persist-credentials: true
