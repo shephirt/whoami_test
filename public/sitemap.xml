@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.crstnhrt.de/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://www.crstnhrt.de/authors/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -15,10 +19,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.crstnhrt.de/tags/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.crstnhrt.de/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
